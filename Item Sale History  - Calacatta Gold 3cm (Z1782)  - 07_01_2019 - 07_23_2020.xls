@@ -1,0 +1,578 @@
+<html xmlns:x="urn:schemas-microsoft-com:office:excel">
+<head>
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>Sheet 1</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml>
+<![endif]-->
+</head>
+<body>
+
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="https://www.w3.org/1999/xhtml">
+	<head id="top_Head1"><title>
+	SPS - Sales by Item
+</title></head>
+		
+	<object id='printControl' viewastext  style='display:none'
+	classid='clsid:1663ed61-23eb-11d2-b92f-008048fdd814'
+	codebase='http://www.meadroid.com/scriptx/ScriptX.cab#Version=6,1,432,1'>
+	</object>
+	<style type="text/css" media="print,screen" >	
+	table{
+	   width:100%;
+	  }
+		thead {
+		display:table-header-group;
+		}
+		tbody {
+		display:table-row-group;
+		}
+		'CSS to turn of Headers and Footers and Set margin in the Print List
+		'@page { margin: 0; }
+	</style>
+	<body onload='javascript:PrintPage(0.20, 0.20, 0.20, 0.20);'>
+	<table width=800 height=100% border=0 CellPading="0" bordercolor='red'>
+	  <tr>
+	    <td class='bgWhite' valign=top>
+		
+	<style>
+		.x-menu {
+		z-index: 15000;
+		background: #f6f6f6 url(../images/default/menu/menu.gif) repeat-y;
+		padding: 2px;
+		margin-left: -12px;
+		margin-top: 3px;
+		color: #54555a;
+	}
+	.ui-menu {
+		padding: 0px;
+		margin: 0;
+		display:block;
+			font-family: verdana,arial,helvetica,sans-serif;
+	     font-size: 10pt;
+	}
+	.ui-menu .ui-menu-item .ui-state-hover,
+	.ui-menu .ui-menu-item .ui-state-active {
+		margin: -1px;
+			background-color: #0097cf; 
+			border: 1px solid #0097cf; 
+	}
+	.ui-menu .ui-menu-item-wrapper {
+	    position: relative;
+	    padding: 5px 1em 6px 1.4em;
+	}
+	.ui-menu .ui-menu-item {
+	    margin: 0;
+	    border-bottom: 1px solid #ebebeb;
+	    padding: 0;
+	}
+	.ui-autocomplete {
+	    max-height: 305px;
+	    overflow-y: auto;
+	    /* prevent horizontal scrollbar */
+	    overflow-x: hidden;
+	  }
+	  input[class*=" autoComplete"] {
+		 cursor: auto;
+	    background-color: #fff;
+	}
+	</style>
+	
+<html xmlns:x="urn:schemas-microsoft-com:office:excel">
+<head>
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>Item Sale History  - Calacatta Gold 3cm (Z1782)  - 07/01/2019 - 07/23/2020</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml>
+<![endif]-->
+</head>
+<body>
+<table><tr>
+<th align=left style='vnd.ms-excel.numberformat:@'>Invoice#</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>Date</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>DeliveryType</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>Description</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>Location</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>Sales Rep</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>Sales Rep2</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>Customer</th>
+<th align=right style='vnd.ms-excel.numberformat:@'>Quantity</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>Units</th>
+<th align=right style='vnd.ms-excel.numberformat:@'>Slab Count</th>
+<th align=right style='vnd.ms-excel.numberformat:@'>Unit Price</th>
+<th align=right style='vnd.ms-excel.numberformat:@'>Extended</th>
+</tr>
+<tr>
+<td>MT646</td>
+<td>7/15/2020</td>
+<td>Delivery</td>
+<td></td>
+<td>Montreal</td>
+<td>Wassim</td>
+<td></td>
+<td>QIQG Installations de Quality Q et Granit</td>
+<td class='right'>1.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,350.00</td>
+<td class='right'>$1,350.00</td>
+</tr>
+<tr>
+<td>MT641</td>
+<td>7/13/2020</td>
+<td>Delivery</td>
+<td></td>
+<td>Montreal</td>
+<td>Wassim</td>
+<td></td>
+<td>QIQG Installations de Quality Q et Granit</td>
+<td class='right'>1.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,350.00</td>
+<td class='right'>$1,350.00</td>
+</tr>
+<tr>
+<td>MT644</td>
+<td>7/13/2020</td>
+<td>Pickup</td>
+<td></td>
+<td>Montreal</td>
+<td>administrator</td>
+<td></td>
+<td>Comptoir Prestige</td>
+<td class='right'>2.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,400.00</td>
+<td class='right'>$2,800.00</td>
+</tr>
+<tr>
+<td>MT628</td>
+<td>7/8/2020</td>
+<td>Delivery</td>
+<td>R37185J-4</td>
+<td>Montreal</td>
+<td>Wassim</td>
+<td></td>
+<td>QIQG Installations de Quality Q et Granit</td>
+<td class='right'>1.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,350.00</td>
+<td class='right'>$1,350.00</td>
+</tr>
+<tr>
+<td>MT625</td>
+<td>7/7/2020</td>
+<td>Pickup</td>
+<td></td>
+<td>Montreal</td>
+<td>Wassim</td>
+<td></td>
+<td>Comptoir Prestige</td>
+<td class='right'>1.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,530.00</td>
+<td class='right'>$1,530.00</td>
+</tr>
+<tr>
+<td>MT619</td>
+<td>7/6/2020</td>
+<td>Delivery</td>
+<td></td>
+<td>Montreal</td>
+<td>Wassim</td>
+<td></td>
+<td>Ceramique Ital-nord Ltee</td>
+<td class='right'>1.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,350.00</td>
+<td class='right'>$1,350.00</td>
+</tr>
+<tr>
+<td>MT573</td>
+<td>6/23/2020</td>
+<td>Delivery</td>
+<td></td>
+<td>Montreal</td>
+<td>administrator</td>
+<td></td>
+<td>Dioptase Surfaces Naturelles</td>
+<td class='right'>2.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,440.00</td>
+<td class='right'>$2,880.00</td>
+</tr>
+<tr>
+<td>MT563</td>
+<td>6/18/2020</td>
+<td>Delivery</td>
+<td></td>
+<td>Montreal</td>
+<td>Wassim</td>
+<td></td>
+<td>Comptoir Prestige</td>
+<td class='right'>4.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,530.00</td>
+<td class='right'>$6,120.00</td>
+</tr>
+<tr>
+<td>MT567</td>
+<td>6/12/2020</td>
+<td>Delivery</td>
+<td></td>
+<td>Montreal</td>
+<td>Wassim</td>
+<td></td>
+<td>QIQG Installations de Quality Q et Granit</td>
+<td class='right'>1.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,170.00</td>
+<td class='right'>$1,170.00</td>
+</tr>
+<tr>
+<td>MT510</td>
+<td>5/20/2020</td>
+<td>Delivery</td>
+<td>R29835F</td>
+<td>Montreal</td>
+<td>administrator</td>
+<td></td>
+<td>QIQG Installations de Quality Q et Granit</td>
+<td class='right'>1.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,350.00</td>
+<td class='right'>$1,350.00</td>
+</tr>
+<tr>
+<td>MT506</td>
+<td>5/13/2020</td>
+<td>Delivery</td>
+<td></td>
+<td>Montreal</td>
+<td>administrator</td>
+<td></td>
+<td>CROWN GRANITE INC.</td>
+<td class='right'>1.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,440.00</td>
+<td class='right'>$1,440.00</td>
+</tr>
+<tr>
+<td>MT476</td>
+<td>4/22/2020</td>
+<td>Delivery</td>
+<td>R29835F</td>
+<td>Montreal</td>
+<td>administrator</td>
+<td></td>
+<td>QIQG Installations de Quality Q et Granit</td>
+<td class='right'>1.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,350.00</td>
+<td class='right'>$1,350.00</td>
+</tr>
+<tr>
+<td>MT409</td>
+<td>3/18/2020</td>
+<td>Delivery</td>
+<td></td>
+<td>Montreal</td>
+<td>Zalina</td>
+<td></td>
+<td>Granit Supreme</td>
+<td class='right'>1.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,530.00</td>
+<td class='right'>$1,530.00</td>
+</tr>
+<tr>
+<td>MT431</td>
+<td>3/9/2020</td>
+<td>Pickup</td>
+<td></td>
+<td>Montreal</td>
+<td>Zalina</td>
+<td></td>
+<td>Granit Evolution</td>
+<td class='right'>1.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,440.00</td>
+<td class='right'>$1,440.00</td>
+</tr>
+<tr>
+<td>MT413</td>
+<td>2/19/2020</td>
+<td>Delivery</td>
+<td></td>
+<td>Montreal</td>
+<td>Zalina</td>
+<td></td>
+<td>Chateau Marbre et Granit</td>
+<td class='right'>1.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,530.00</td>
+<td class='right'>$1,530.00</td>
+</tr>
+<tr>
+<td>MT300</td>
+<td>11/28/2019</td>
+<td>Pickup</td>
+<td></td>
+<td>Montreal</td>
+<td>Zalina</td>
+<td></td>
+<td>Granit Evolution</td>
+<td class='right'>2.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,440.00</td>
+<td class='right'>$2,880.00</td>
+</tr>
+<tr>
+<td>MT293</td>
+<td>11/21/2019</td>
+<td>Delivery</td>
+<td></td>
+<td>Montreal</td>
+<td>Zalina</td>
+<td></td>
+<td>The Stone Company</td>
+<td class='right'>1.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,440.00</td>
+<td class='right'>$1,440.00</td>
+</tr>
+<tr>
+<td>MT290</td>
+<td>11/20/2019</td>
+<td>Delivery</td>
+<td></td>
+<td>Montreal</td>
+<td>Zalina</td>
+<td></td>
+<td>Comptoir Prestige</td>
+<td class='right'>1.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,530.00</td>
+<td class='right'>$1,530.00</td>
+</tr>
+<tr>
+<td>MT292</td>
+<td>11/16/2019</td>
+<td>Delivery</td>
+<td></td>
+<td>Montreal</td>
+<td>Zalina</td>
+<td></td>
+<td>Granit Supreme</td>
+<td class='right'>2.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,530.00</td>
+<td class='right'>$3,060.00</td>
+</tr>
+<tr>
+<td>MT275</td>
+<td>11/11/2019</td>
+<td>Delivery</td>
+<td>Island Harbor</td>
+<td>Montreal</td>
+<td>Zalina</td>
+<td></td>
+<td>QIQG Installations de Quality Q et Granit</td>
+<td class='right'>1.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,350.00</td>
+<td class='right'>$1,350.00</td>
+</tr>
+<tr>
+<td>MT263</td>
+<td>11/6/2019</td>
+<td>Delivery</td>
+<td>R31284L + R23340M-7 same batch</td>
+<td>Montreal</td>
+<td>Zalina</td>
+<td></td>
+<td>QIQG Installations de Quality Q et Granit</td>
+<td class='right'>3.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,350.00</td>
+<td class='right'>$4,050.00</td>
+</tr>
+<tr>
+<td>MT230</td>
+<td>11/4/2019</td>
+<td>Pickup</td>
+<td></td>
+<td>Montreal</td>
+<td>Zalina</td>
+<td></td>
+<td>Granit Evolution</td>
+<td class='right'>2.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,440.00</td>
+<td class='right'>$2,880.00</td>
+</tr>
+<tr>
+<td>MT254</td>
+<td>10/30/2019</td>
+<td>Delivery</td>
+<td>R28854W</td>
+<td>Montreal</td>
+<td>Zalina</td>
+<td></td>
+<td>QIQG Installations de Quality Q et Granit</td>
+<td class='right'>2.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,350.00</td>
+<td class='right'>$2,700.00</td>
+</tr>
+<tr>
+<td>MT250</td>
+<td>10/28/2019</td>
+<td>Delivery</td>
+<td></td>
+<td>Montreal</td>
+<td>Zalina</td>
+<td></td>
+<td>Comptoir Prestige</td>
+<td class='right'>1.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,530.00</td>
+<td class='right'>$1,530.00</td>
+</tr>
+<tr>
+<td>MT246</td>
+<td>10/25/2019</td>
+<td>Delivery</td>
+<td>R29199F-2 same batch</td>
+<td>Montreal</td>
+<td>Zalina</td>
+<td></td>
+<td>QIQG Installations de Quality Q et Granit</td>
+<td class='right'>2.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,350.00</td>
+<td class='right'>$2,700.00</td>
+</tr>
+<tr>
+<td>MT243</td>
+<td>10/21/2019</td>
+<td>Delivery</td>
+<td></td>
+<td>Montreal</td>
+<td>Zalina</td>
+<td></td>
+<td>Comptoir Prestige</td>
+<td class='right'>1.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,530.00</td>
+<td class='right'>$1,530.00</td>
+</tr>
+<tr>
+<td>MT224</td>
+<td>10/11/2019</td>
+<td>Delivery</td>
+<td>Emerald Condos</td>
+<td>Montreal</td>
+<td>Zalina</td>
+<td></td>
+<td>QIQG Installations de Quality Q et Granit</td>
+<td class='right'>1.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,350.00</td>
+<td class='right'>$1,350.00</td>
+</tr>
+<tr>
+<td>MT200</td>
+<td>9/26/2019</td>
+<td>Pickup</td>
+<td></td>
+<td>Montreal</td>
+<td>Zalina</td>
+<td></td>
+<td>Granit Evolution</td>
+<td class='right'>1.00</td>
+<td class='right'>PC</td>
+<td class='right'>0</td>
+<td class='right'>$1,440.00</td>
+<td class='right'>$1,440.00</td>
+</tr>
+<tr>
+<td class='moderate bold' colspan=3>REPORT TOTALS</td>
+<td class=''></td>
+<td class=''></td>
+<td class=''></td>
+<td class=''></td>
+<td class=''></td>
+<td class='right moderate bold'>40.00</td>
+<td class=''></td>
+<td class='right moderate bold'>0.00</td>
+<td class=''></td>
+<td class='right moderate bold'>$56,980.00</td>
+</tr>
+</table>
+</body>
+</html>
+  
+
+
+
+<script>
+if ('Excel' == '')
+{
+	$('#listLegacyReportTable').tablePagination({rowsPerPage:'All'});
+	$('.tablePagination_paginater').hide();
+}
+
+var advSearchHrefValue =  $('#advancedSearchHref').attr('href');
+$('#advancedSearchHref').attr('href' , advSearchHrefValue.replace("<u><a href = 'vItem.aspx?ID=264' class=''>" , ""));
+
+</script>
+
+
